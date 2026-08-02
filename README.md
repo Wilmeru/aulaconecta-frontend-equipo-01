@@ -39,7 +39,7 @@ En esta primera etapa se planea construir:
 ## Criterios de calidad para aceptar una contribución
 1. El código o documentación debe estar bien estructurado y legible.
 2. No debe contener información sensible (contraseñas, tokens, datos personales).
-3. Debe cumplir con el alcance definido en el proyecto.
+3. Debe cumplir con los criterios de calidad establecidos (código limpio, sin errores evidentes y con mensajes de commit claros).
 4. Debe pasar por una revisión de al menos un compañero.
 5. El mensaje de commit debe explicar claramente el cambio realizado.
 
