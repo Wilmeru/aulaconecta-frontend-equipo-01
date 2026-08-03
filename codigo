@@ -6,6 +6,8 @@
     <title>Mi Página Web</title>
 
     <style>
+
+
         *{
             margin:0;
             padding:0;
@@ -67,6 +69,22 @@
             padding:15px;
             margin-top:30px;
         }
+        
+        .tarjetas{
+            display:flex;
+            gap:20px;
+            margin:25px 0;
+            flex-wrap:wrap;
+        }
+        
+        .tarjeta{
+            flex:1;
+            min-width:200px;
+            background:#eef6ff;
+            padding:15px;
+            border-radius:8px;
+            border-left:5px solid #0077cc;
+        }
     </style>
 </head>
 <body>
@@ -90,6 +108,23 @@
         los colores y agregar imágenes o más secciones.
     </p>
 
+
+<div class="tarjetas">
+    <div class="tarjeta">
+        <h3>Misión</h3>
+        <p>Ofrecer contenido útil y fácil de entender para todos.</p>
+    </div>
+
+    <div class="tarjeta">
+        <h3>Visión</h3>
+        <p>Crear una página moderna y agradable para los visitantes.</p>
+    </div>
+
+    <div class="tarjeta">
+        <h3>Objetivo</h3>
+        <p>Aprender HTML, CSS y JavaScript mediante ejemplos prácticos.</p>
+    </div>
+</div>
     <button onclick="saludar()">Haz clic aquí</button>
 </div>
 
