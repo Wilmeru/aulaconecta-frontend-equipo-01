@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#0077cc;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#005fa3;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .contenido{
+            width:80%;
+            margin:30px auto;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        button{
+            margin-top:20px;
+            padding:10px 20px;
+            border:none;
+            background:#0077cc;
+            color:white;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#005fa3;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a mi Página Web</h1>
+    <p>Un ejemplo básico en HTML y CSS</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Nosotros</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<div class="contenido">
+    <h2>Hola 👋</h2>
+    <p>
+        Esta es una página web sencilla. Puedes modificar el texto,
+        los colores y agregar imágenes o más secciones.
+    </p>
+
+    <button onclick="saludar()">Haz clic aquí</button>
+</div>
+
+<footer>
+    © 2026 Mi Página Web - Todos los derechos reservados.
+</footer>
+
+<script>
+function saludar(){
+    alert("¡Gracias por visitar mi página web!");
+}
+</script>
+
+</body>
+</html>
